@@ -20,6 +20,12 @@
       "color": "#0dcaf0"
     },
     {
+      "name": "Schneier on Security",
+      "url": "http://www.schneier.com/blog/index.rdf",
+      "language": "en",
+      "color": "#6b0000"
+    },
+    {
       "name": "Dark Reading",
       "url": "https://www.darkreading.com/rss.xml",
       "language": "en",
