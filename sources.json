@@ -30,12 +30,6 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
       "color": "#0d6efd"
-    },
-    {
-      "name": "Segurança Informática",
-      "url": "https://seguranca-informatica.pt/feed/",
-      "language": "pt-br",
-      "color": "#198754"
     }
   ],
     
@@ -48,11 +42,6 @@
     {
       "name": "r/cybersecurity",
       "url": "https://www.reddit.com/r/cybersecurity.rss",
-      "color": "#FF5700"
-    },
-    {
-      "name": "r/SecurityCareerAdvice",
-      "url": "https://www.reddit.com/r/SecurityCareerAdvice.rss",
       "color": "#FF5700"
     }
   ],
