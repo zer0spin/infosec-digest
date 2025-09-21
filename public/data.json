@@ -7,7 +7,7 @@
         "summary": "Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed leveraging ClickFix-style lures to deliver a known malware called BeaverTail and InvisibleFerret.\n\"The threat actor used ClickFix lures to target marketing and trader roles in cryptocurrency and retail sector organizations rather than targeting software development roles,\" GitLab",
         "published": "Sun, 21 Sep 2025 16:26:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968543Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -18,7 +18,7 @@
         "summary": "Cybersecurity researchers have disclosed a zero-click flaw in OpenAI ChatGPT's Deep Research agent that could allow an attacker to leak sensitive Gmail inbox data with a single crafted email without any user action.\nThe new class of attack has been codenamed ShadowLeak by Radware. Following responsible disclosure on June 18, 2025, the issue was addressed by OpenAI in early August.\n\"The attack",
         "published": "Sat, 20 Sep 2025 11:01:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968712Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -29,7 +29,7 @@
         "summary": "Fortra has disclosed details of a critical security flaw in GoAnywhere Managed File Transfer (MFT) software that could result in the execution of arbitrary commands.\nThe vulnerability, tracked as CVE-2025-10035, carries a CVSS score of 10.0, indicating maximum severity.\n\"A deserialization vulnerability in the License Servlet of Fortra's GoAnywhere MFT allows an actor with a validly forged",
         "published": "Fri, 19 Sep 2025 19:42:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968796Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -40,7 +40,7 @@
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday released details of two sets of malware that were discovered in an unnamed organization's network following the exploitation of security flaws in Ivanti Endpoint Manager Mobile (EPMM).\n\"Each set contains loaders for malicious listeners that enable cyber threat actors to run arbitrary code on the compromised server,\"",
         "published": "Fri, 19 Sep 2025 09:40:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968940Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -51,7 +51,7 @@
         "summary": "Google on Wednesday released security updates for the Chrome web browser to address four vulnerabilities, including one that it said has been exploited in the wild.\nThe zero-day vulnerability in question is CVE-2025-10585, which has been described as a type confusion issue in the V8 JavaScript and WebAssembly engine.\nType confusion vulnerabilities can have severe consequences as they can be",
         "published": "Thu, 18 Sep 2025 11:19:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969107Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -62,7 +62,7 @@
         "summary": "Cybersecurity researchers have disclosed multiple critical security vulnerabilities in Chaos Mesh that, if successfully exploited, could lead to cluster takeover in Kubernetes environments.\n\"Attackers need only minimal in-cluster network access to exploit these vulnerabilities, execute the platform's fault injections (such as shutting down pods or disrupting network communications), and perform",
         "published": "Tue, 16 Sep 2025 21:53:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969388Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -73,7 +73,7 @@
         "summary": "Cybersecurity researchers have warned of a new campaign that's leveraging a variant of the FileFix social engineering tactic to deliver the StealC information stealer malware.\n\"The observed campaign uses a highly convincing, multilingual phishing site (e.g., fake Facebook Security page), with anti-analysis techniques and advanced obfuscation to evade detection,\" Acronis security researcher Eliad",
         "published": "Tue, 16 Sep 2025 18:03:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969437Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -84,7 +84,7 @@
         "summary": "Apple on Monday backported fixes for a recently patched security flaw that has been actively exploited in the wild.\nThe vulnerability in question is CVE-2025-43300 (CVSS score: 8.8), an out-of-bounds write issue in the ImageIO component that could result in memory corruption when processing a malicious image file.\n\"Apple is aware of a report that this issue may have been exploited in an",
         "published": "Tue, 16 Sep 2025 16:36:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969493Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -95,7 +95,7 @@
         "summary": "Cybersecurity researchers have flagged a fresh software supply chain attack targeting the npm registry that has affected more than 40 packages that belong to multiple maintainers.\n\"The compromised versions include a function (NpmModule.updatePackage) that downloads a package tarball, modifies package.json, injects a local script (bundle.js), repacks the archive, and republishes it, enabling",
         "published": "Tue, 16 Sep 2025 10:30:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969563Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -106,7 +106,7 @@
         "summary": "The China-aligned threat actor known as Mustang Panda has been observed using an updated version of a backdoor called TONESHELL and a previously undocumented USB worm called SnakeDisk.\n\"The worm only executes on devices with Thailand-based IP addresses and drops the Yokai backdoor,\" IBM X-Force researchers Golo Mühr and Joshua Chung said in an analysis published last week.\nThe tech giant's",
         "published": "Tue, 16 Sep 2025 00:15:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969579Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -117,7 +117,7 @@
         "summary": "Samsung has released its monthly security updates for Android, including a fix for a security vulnerability that it said has been exploited in zero-day attacks.\nThe vulnerability, CVE-2025-21043 (CVSS score: 8.8), concerns an out-of-bounds write that could result in arbitrary code execution.\n\"Out-of-bounds Write in libimagecodec.quram.so prior to SMR Sep-2025 Release 1 allows remote attackers to",
         "published": "Fri, 12 Sep 2025 20:46:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969732Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -128,7 +128,7 @@
         "summary": "Cybersecurity researchers have discovered a new ransomware strain dubbed HybridPetya that resembles the notorious Petya/NotPetya malware, while also incorporating the ability to bypass the Secure Boot mechanism in Unified Extensible Firmware Interface (UEFI) systems using a now-patched vulnerability disclosed earlier this year.\nSlovakian cybersecurity company ESET said the samples were uploaded",
         "published": "Fri, 12 Sep 2025 17:20:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969771Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -139,7 +139,7 @@
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting Dassault Systèmes DELMIA Apriso Manufacturing Operations Management (MOM) software to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerability, tracked as CVE-2025-5086, carries a CVSS score of 9.0 out of 10.0. According to",
         "published": "Fri, 12 Sep 2025 16:33:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969786Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -150,7 +150,7 @@
         "summary": "A security weakness has been disclosed in the artificial intelligence (AI)-powered code editor Cursor that could trigger code execution when a maliciously crafted repository is opened using the program.\nThe issue stems from the fact that an out-of-the-box security setting is disabled by default, opening the door for attackers to run arbitrary code on users' computers with their privileges.\n\"",
         "published": "Fri, 12 Sep 2025 10:19:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969835Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -161,7 +161,7 @@
         "summary": "Threat actors affiliated with the Akira ransomware group have continued to target SonicWall devices for initial access.\nCybersecurity firm Rapid7 said it observed a spike in intrusions involving SonicWall appliances over the past month, particularly following reports about renewed Akira ransomware activity since late July 2025.\nSonicWall subsequently revealed the SSL VPN activity aimed at its",
         "published": "Thu, 11 Sep 2025 16:03:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969904Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -172,7 +172,7 @@
         "summary": "Microsoft Corp. today issued security updates to fix more than 80 vulnerabilities in its Windows operating systems and software. There are no known \"zero-day\" or actively exploited vulnerabilities in this month's bundle from Redmond, which nevertheless includes patches for 13 flaws that earned Microsoft's most-dire \"critical\" label. Meanwhile, both Apple and Google recently released updates to fix zero-day bugs in their devices.",
         "published": "Tue, 09 Sep 2025 21:21:14 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753627Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -183,7 +183,7 @@
         "summary": "Exploitation of the flaw, tracked as CVE-2025-10035, is highly dependent on whether systems are exposed to the Internet, according to Fortra.",
         "published": "Fri, 19 Sep 2025 20:35:07 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130533Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -194,7 +194,7 @@
         "summary": "While the cloud vulnerability was fixed prior to disclosure, the researcher who discovered it says it could have led to catastrophic attacks, alarming some in the security community.",
         "published": "Fri, 19 Sep 2025 13:47:28 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130811Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -205,7 +205,7 @@
         "summary": "Highly deceptive FileFix uses code obfuscation and steganography and has been translated into at least 16 languages to power a global campaign.",
         "published": "Tue, 16 Sep 2025 12:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131277Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -216,7 +216,7 @@
         "summary": "The cybercrime group, named after Japanese ghosts but believed to be from Morocco, uses a modified version of the Prince-Ransomware binary that includes a flaw allowing for partial data recovery. However, an extortion threat remains.",
         "published": "Tue, 16 Sep 2025 08:53:40 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131295Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -227,7 +227,7 @@
         "summary": "CERT-FR's advisory follows last month's disclosure of a zero-day flaw Apple said was used in &quot;sophisticated&quot; attacks against targeted individuals.",
         "published": "Fri, 12 Sep 2025 19:28:23 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131488Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -238,7 +238,7 @@
         "summary": "Even when a vulnerability is serious and a fix is available, actually securing cars is more difficult than one would hope.",
         "published": "Thu, 11 Sep 2025 19:30:24 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131617Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -249,7 +249,7 @@
         "summary": "Nearly half the CVEs Microsoft disclosed in its September security update, including one publicly known bug, enable escalation of privileges.",
         "published": "Tue, 09 Sep 2025 20:48:26 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131857Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -260,7 +260,7 @@
         "summary": "Fortra has released security updates to patch a maximum severity vulnerability in GoAnywhere MFT's License Servlet that can be exploited in command injection attacks. [...]",
         "published": "Fri, 19 Sep 2025 10:20:52 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222344Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -271,7 +271,7 @@
         "summary": "OpenAI has rolled out a big update to ChatGPT Search, which is an AI-powered search feature, similar to Google AI Mode. [...]",
         "published": "Thu, 18 Sep 2025 19:10:00 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222537Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -284,7 +284,7 @@
         "summary": "LastPass is warning of an ongoing, widespread information stealer campaign targeting Apple macOS users through fake GitHub repositories that distribute malware-laced programs masquerading as legitimate tools.\n\n\"In the case of LastPass, the fraudulent repositories redirected potential victims to a repository that downloads the Atomic infostealer malware,\" researchers Alex Cox, Mike Kosak, and",
         "published": "Sat, 20 Sep 2025 12:37:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968632Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -295,7 +295,7 @@
         "summary": "Cybersecurity researchers have discovered what they say is the earliest example known to date of a malware that bakes in Large Language Model (LLM) capabilities.\nThe malware has been codenamed MalTerminal by SentinelOne SentinelLABS research team. The findings were presented at the LABScon 2025 security conference.\nIn a report examining the malicious use of LLMs, the cybersecurity company said",
         "published": "Sat, 20 Sep 2025 11:18:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968677Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -306,7 +306,7 @@
         "summary": "An Iran-nexus cyber espionage group known as UNC1549 has been attributed to a new campaign targeting European telecommunications companies, successfully infiltrating 34 devices across 11 organizations as part of a recruitment-themed activity on LinkedIn.\nSwiss cybersecurity company PRODAFT is tracking the cluster under the name Subtle Snail. It's assessed to be affiliated with Iran's Islamic",
         "published": "Fri, 19 Sep 2025 21:36:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968738Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -317,7 +317,7 @@
         "summary": "A proxy network known as REM Proxy is powered by malware known as SystemBC, offering about 80% of the botnet to its users, according to new findings from the Black Lotus Labs team at Lumen Technologies.\n\"REM Proxy is a sizeable network, which also markets a pool of 20,000 Mikrotik routers and a variety of open proxies it finds freely available online,\" the company said in a report shared with",
         "published": "Fri, 19 Sep 2025 19:56:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968767Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -328,7 +328,7 @@
         "summary": "The phishing-as-a-service (PhaaS) offerings known as Lighthouse and Lucid has been linked to more than 17,500 phishing domains targeting 316 brands from 74 countries.\n\"Phishing-as-a-Service (PhaaS) deployments have risen significantly recently,\" Netcraft said in a new report. \"The PhaaS operators charge a monthly fee for phishing software with pre-installed templates impersonating, in some cases",
         "published": "Fri, 19 Sep 2025 19:32:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968817Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -339,7 +339,7 @@
         "summary": "Run by the team at workflow orchestration and AI platform Tines, the Tines library features over 1,000 pre-built workflows shared by security practitioners from across the community - all free to import and deploy through the platform's Community Edition.\nThe workflow we are highlighting streamlines security alert handling by automatically identifying and executing the appropriate Standard",
         "published": "Fri, 19 Sep 2025 16:30:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968848Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -350,7 +350,7 @@
         "summary": "Cybersecurity researchers have discerned evidence of two Russian hacking groups Gamaredon and Turla collaborating together to target and co-comprise Ukrainian entities.\nSlovak cybersecurity company ESET said it observed the Gamaredon tools PteroGraphin and PteroOdd being used to execute Turla group's Kazuar backdoor on an endpoint in Ukraine in February 2025, indicating that Turla is very likely",
         "published": "Fri, 19 Sep 2025 13:54:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968880Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -361,7 +361,7 @@
         "summary": "SonicWall is urging customers to reset credentials after their firewall configuration backup files were exposed in a security breach impacting MySonicWall accounts.\nThe company said it recently detected suspicious activity targeting the cloud backup service for firewalls, and that unknown threat actors accessed backup firewall preference files stored in the cloud for less than 5% of its",
         "published": "Thu, 18 Sep 2025 19:42:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968960Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -372,7 +372,7 @@
         "summary": "Cybersecurity researchers have discovered two new malicious packages in the Python Package Index (PyPI) repository that are designed to deliver a remote access trojan called SilentSync on Windows systems.\n\"SilentSync is capable of remote command execution, file exfiltration, and screen capturing,\" Zscaler ThreatLabz's Manisha Ramcharan Prajapati and Satyam Singh said. \"SilentSync also extracts",
         "published": "Thu, 18 Sep 2025 17:08:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969014Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -383,7 +383,7 @@
         "summary": "The threat actor known as TA558 has been attributed to a fresh set of attacks delivering various remote access trojans (RATs) like Venom RAT to breach hotels in Brazil and Spanish-speaking markets.\nRussian cybersecurity vendor Kaspersky is tracking the activity, observed in summer 2025, to a cluster it tracks as RevengeHotels.\n\"The threat actors continue to employ phishing emails with invoice",
         "published": "Thu, 18 Sep 2025 00:00:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969128Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -394,7 +394,7 @@
         "summary": "A China-aligned threat actor known as TA415 has been attributed to spear-phishing campaigns targeting the U.S. government, think tanks, and academic organizations utilizing U.S.-China economic-themed lures.\n\"In this activity, the group masqueraded as the current Chair of the Select Committee on Strategic Competition between the United States and the Chinese Communist Party (CCP), as well as the",
         "published": "Wed, 17 Sep 2025 18:26:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969157Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -405,7 +405,7 @@
         "summary": "Generative AI has gone from a curiosity to a cornerstone of enterprise productivity in just a few short years. From copilots embedded in office suites to dedicated large language model (LLM) platforms, employees now rely on these tools to code, analyze, draft, and decide. But for CISOs and security architects, the very speed of adoption has created a paradox: the more powerful the tools, the",
         "published": "Wed, 17 Sep 2025 16:33:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969247Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -416,7 +416,7 @@
         "summary": "The U.S. Department of Justice (DoJ) on Tuesday resentenced the former administrator of BreachForums to three years in prison in connection with his role in running the cybercrime forum and possessing child sexual abuse material (CSAM).\nConor Brian Fitzpatrick (aka Pompompurin), 22, of Peekskill, New York, pleaded guilty to one count of access device conspiracy, one count of access device",
         "published": "Wed, 17 Sep 2025 11:50:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969316Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -427,7 +427,7 @@
         "summary": "AI agents are rapidly becoming a core part of the enterprise, being embedded across enterprise workflows, operating with autonomy, and making decisions about which systems to access and how to use them. But as agents grow in power and autonomy, so do the risks and threats.&nbsp;\nRecent studies show 80% of companies have already experienced unintended AI agent actions, from unauthorized system",
         "published": "Tue, 16 Sep 2025 16:30:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969513Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -438,7 +438,7 @@
         "summary": "A new artificial intelligence (AI)-powered penetration testing tool linked to a China-based company has attracted nearly 11,000 downloads on the Python Package Index (PyPI) repository, raising concerns that it could be repurposed by cybercriminals for malicious purposes.\nDubbed Villager, the framework is assessed to be the work of Cyberspike, which has positioned the tools as a red teaming",
         "published": "Mon, 15 Sep 2025 12:42:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969669Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -449,7 +449,7 @@
         "summary": "Apple has notified users in France of a spyware campaign targeting their devices, according to the Computer Emergency Response Team of France (CERT-FR).\nThe agency said the alerts were sent out on September 3, 2025, making it the fourth time this year that Apple has notified citizens in the county that at least one of the devices linked to their iCloud accounts may have been compromised as part",
         "published": "Fri, 12 Sep 2025 20:19:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969748Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -460,7 +460,7 @@
         "summary": "The security landscape for cloud-native applications is undergoing a profound transformation. Containers, Kubernetes, and serverless technologies are now the default for modern enterprises, accelerating delivery but also expanding the attack surface in ways traditional security models can’t keep up with.\nAs adoption grows, so does complexity. Security teams are asked to monitor sprawling hybrid",
         "published": "Fri, 12 Sep 2025 13:30:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969805Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -471,7 +471,7 @@
         "summary": "Google on Tuesday announced that its new Google Pixel 10 phones support the Coalition for Content Provenance and Authenticity (C2PA) standard out of the box to verify the origin and history of digital content.\nTo that end, support for C2PA's Content Credentials has been added to Pixel Camera and Google Photos apps for Android. The move, Google said, is designed to further digital media",
         "published": "Thu, 11 Sep 2025 20:33:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969851Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -482,7 +482,7 @@
         "summary": "U.S. Senator Ron Wyden has called on the Federal Trade Commission (FTC) to probe Microsoft and hold it responsible for what he called \"gross cybersecurity negligence\" that enabled ransomware attacks on U.S. critical infrastructure, including against healthcare networks.\n\"Without timely action, Microsoft's culture of negligent cybersecurity, combined with its de facto monopolization of the",
         "published": "Thu, 11 Sep 2025 20:21:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969879Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -493,7 +493,7 @@
         "summary": "An advanced persistent threat (APT) group from China has been attributed to the compromise of a Philippines-based military company using a previously undocumented fileless malware framework called EggStreme.\n\"This multi-stage toolset achieves persistent, low-profile espionage by injecting malicious code directly into memory and leveraging DLL sideloading to execute payloads,\" Bitdefender",
         "published": "Wed, 10 Sep 2025 21:16:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.970019Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -504,7 +504,7 @@
         "summary": "At least 187 code packages made available through the JavaScript repository NPM have been infected with a self-replicating worm that steals credentials from developers and publishes those secrets on GitHub, experts warn. The malware, which briefly infected multiple code packages from the security vendor CrowdStrike, steals and publishes even more credentials every time an infected package is installed.",
         "published": "Tue, 16 Sep 2025 14:08:02 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753474Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -515,7 +515,7 @@
         "summary": "At least 18 popular JavaScript code packages that are collectively downloaded more than two billion times each week were briefly compromised with malicious software today, after a developer involved in maintaining the projects was phished. The attack appears to have been quickly contained and was narrowly focused on stealing cryptocurrency. But experts warn that a similar attack with a slightly more nefarious payload could quickly lead to a disruptive malware outbreak that is far more difficult to detect and restrain.",
         "published": "Mon, 08 Sep 2025 22:53:41 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753656Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -526,7 +526,7 @@
         "summary": "The chairman of the Federal Trade Commission (FTC) last week sent a letter to Google's CEO demanding to know why Gmail was blocking messages from Republican senders while allegedly failing to block similar missives supporting Democrats. The letter followed media reports accusing Gmail of disproportionately flagging messages from the GOP fundraising platform WinRed and sending them to the spam folder. But according to experts who track daily spam volumes worldwide, WinRed's messages are getting blocked more because its methods of blasting email are increasingly way more spammy than that of ActBlue, the fundraising platform for Democrats.",
         "published": "Sat, 06 Sep 2025 03:23:35 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753691Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -537,7 +537,7 @@
         "summary": "Last month, KrebsOnSecurity tracked the sudden emergence of hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. We've since learned that these scam gambling sites have proliferated thanks to a new Russian affiliate program called \"Gambler Panel\" that bills itself as a \"soulless project that is made for profit.\"",
         "published": "Thu, 28 Aug 2025 17:21:32 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753758Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -548,7 +548,7 @@
         "summary": "The cybersecurity community on Reddit responded in disbelief this month when a self-described Air National Guard member with top secret security clearance began questioning the arrangement they'd made with company called DSLRoot, which was paying $250 a month to plug a pair of laptops into the Redditor's high-speed Internet connection in the United States. This post examines the history and provenance of DSLRoot, one of the oldest \"residential proxy\" networks with origins in Russia and Eastern Europe.",
         "published": "Tue, 26 Aug 2025 14:05:12 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753798Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -559,7 +559,7 @@
         "summary": "A 21-year-old Florida man at the center of a prolific cybercrime group known as \"Scattered Spider\" was sentenced to 10 years in federal prison today, and ordered to pay roughly $13 million in restitution to victims.\n\nNoah Michael Urban of Palm Coast, Fla. pleaded guilty in April 2025 to charges of wire fraud and conspiracy. Florida prosecutors alleged Urban conspired with others to steal at least $800,000 from five victims via SIM-swapping attacks that diverted their mobile phone calls and text messages to devices controlled by Urban and his co-conspirators.",
         "published": "Thu, 21 Aug 2025 01:47:22 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753837Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -570,7 +570,7 @@
         "summary": "As Splunk celebrates the 10th anniversary of Boss of the SOC competition, it continues to be a valuable platform for security professionals to test their skills, learn new techniques, and potentially advance their careers in cybersecurity.",
         "published": "Fri, 19 Sep 2025 19:20:16 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130623Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -581,7 +581,7 @@
         "summary": "The loophole allows cyberattackers to exfiltrate company data via OpenAI's infrastructure, leaving no trace at all on enterprise systems.",
         "published": "Fri, 19 Sep 2025 19:07:47 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130666Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -592,7 +592,7 @@
         "summary": "A Charming Kitten subgroup is performing some of the most bespoke cyberattacks ever witnessed in the wild, to down select high-value targets.",
         "published": "Fri, 19 Sep 2025 13:59:31 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130781Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -603,7 +603,7 @@
         "summary": "Threat actors breached the MySonicWall service and accessed backup firewall configuration files belonging to &quot;fewer than 5%&quot; of its install base, according to the company.",
         "published": "Thu, 18 Sep 2025 19:26:36 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130906Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -614,7 +614,7 @@
         "summary": "The new lightweight stealer, distributed via underground forums and cracked software, demonstrates an important evolution in the stealth of commodity infostealing malware.",
         "published": "Wed, 17 Sep 2025 12:06:52 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131111Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -625,7 +625,7 @@
         "summary": "The data security platform comes with a predictive capability that separates it from other offerings aimed at protecting enterprise data, the startup says.",
         "published": "Tue, 16 Sep 2025 21:27:08 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131169Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -636,7 +636,7 @@
         "summary": "Researchers say the commercial adtech platform and several other companies form the infrastructure of a massive cybercrime operation.",
         "published": "Tue, 16 Sep 2025 19:36:27 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131252Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -647,7 +647,7 @@
         "summary": "The malware, which has traits of Petya ransomware and the infamous NotPetya wiper, is designed to target UEFI-based systems, according to researchers.",
         "published": "Mon, 15 Sep 2025 20:59:56 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131346Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -658,7 +658,7 @@
         "summary": "The ransomware gang breached a &quot;major element&quot; of the healthcare technology supply chain and stole sensitive patient data, according to researchers.",
         "published": "Mon, 15 Sep 2025 20:28:59 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131364Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -669,7 +669,7 @@
         "summary": "Together, we can foster a culture of collaboration and vigilance, ensuring that we are not just waiting for a hero to save us, but actively working to protect ourselves and our communities.",
         "published": "Fri, 12 Sep 2025 14:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131518Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -680,7 +680,7 @@
         "summary": "By weaponizing the ThrottleStop.sys driver, attackers are disrupting antivirus and endpoint detection and response (EDR) systems.",
         "published": "Thu, 11 Sep 2025 20:42:08 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131597Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -691,7 +691,7 @@
         "summary": "With legit sounding names, EvilAI's &quot;productivity&quot; apps are reviving classic threats like Trojans while adding new evasion capabilities against modern antivirus defenses.",
         "published": "Thu, 11 Sep 2025 18:37:05 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131663Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -702,7 +702,7 @@
         "summary": "The pervasive Vidar infostealer has evolved with a suite of new evasion techniques and covert data exfiltration methods, according to researchers.",
         "published": "Thu, 11 Sep 2025 16:23:21 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131683Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -713,7 +713,7 @@
         "summary": "Researchers thought a Russian APT used a compromised employee email to attack Kazakhstan's biggest oil company. The company later confirmed it was a pen test.",
         "published": "Thu, 11 Sep 2025 12:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131732Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -724,7 +724,7 @@
         "summary": "As Kubernetes becomes the foundation of enterprise infrastructure, the underlying operating system must evolve alongside it.",
         "published": "Wed, 10 Sep 2025 14:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131798Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -735,7 +735,7 @@
         "summary": "The data breach, which occurred earlier this year, saw threat actors compromise a third-party platform to obtain Qantas customers' personal information.",
         "published": "Tue, 09 Sep 2025 19:17:18 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131891Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -746,7 +746,7 @@
         "summary": "Cybercriminal operations use the same strategy and planning as legitimate organizations as they arm adversarial phishing kits with advanced features.",
         "published": "Tue, 09 Sep 2025 15:50:11 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131930Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -757,7 +757,7 @@
         "summary": "Ransomware remains one of the most destructive threats—because defenses keep failing. Picus Blue Report 2025 shows prevention dropped to 62%, while data exfiltration prevention collapsed to just 3%. [...]",
         "published": "Fri, 19 Sep 2025 10:01:11 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222372Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -768,7 +768,7 @@
         "summary": "Two teenagers, believed to be linked to the August 2024 cyberattack on Transport for London, have been arrested in the United Kingdom. [...]",
         "published": "Thu, 18 Sep 2025 10:37:12 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222599Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -779,7 +779,7 @@
         "summary": "The operators of the SystemBC proxy botnet are hunting for vulnerable commercial virtual private servers (VPS) and maintain an average of 1,500 bots every day that provide a highway for malicious traffic. [...]",
         "published": "Thu, 18 Sep 2025 10:35:53 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222633Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -792,7 +792,7 @@
         "summary": "Law enforcement authorities in the U.K. have arrested two teen members of the Scattered Spider hacking group in connection with their alleged participation in an August 2024 cyber attack targeting Transport for London (TfL), the city's public transportation agency.\nThalha Jubair (aka EarthtoStar, Brad, Austin, and @autistic), 19, from East London and Owen Flowers, 18, from Walsall, West Midlands",
         "published": "Fri, 19 Sep 2025 12:35:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968912Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -803,7 +803,7 @@
         "summary": "Cybersecurity researchers have discovered a new malware loader codenamed CountLoader that has been put to use by Russian ransomware gangs to deliver post-exploitation tools like Cobalt Strike and AdaptixC2, and a remote access trojan known as PureHVNC RAT.\n\"CountLoader is being used either as part of an Initial Access Broker's (IAB) toolset or by a ransomware affiliate with ties to the LockBit,",
         "published": "Thu, 18 Sep 2025 18:26:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.968991Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -814,7 +814,7 @@
         "summary": "A massive ad fraud and click fraud operation dubbed SlopAds ran a cluster of 224 apps, collectively attracting 38 million downloads across 228 countries and territories.\n\"These apps deliver their fraud payload using steganography and create hidden WebViews to navigate to threat actor-owned cashout sites, generating fraudulent ad impressions and clicks,\" HUMAN’s Satori Threat Intelligence and",
         "published": "Tue, 16 Sep 2025 19:49:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969412Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -825,7 +825,7 @@
         "summary": "A team of academics from ETH Zürich and Google has discovered a new variant of a RowHammer attack targeting Double Data Rate 5 (DDR5) memory chips from South Korean semiconductor vendor SK Hynix.\nThe RowHammer attack variant, codenamed Phoenix (CVE-2025-6202, CVSS score: 7.1), is capable of bypassing sophisticated protection mechanisms put in place to resist the attack.\n\"We have proven that",
         "published": "Tue, 16 Sep 2025 12:57:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969540Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -836,7 +836,7 @@
         "summary": "In a world where threats are persistent, the modern CISO’s real job isn't just to secure technology—it's to preserve institutional trust and ensure business continuity.\nThis week, we saw a clear pattern: adversaries are targeting the complex relationships that hold businesses together, from supply chains to strategic partnerships. With new regulations and the rise of AI-driven attacks, the",
         "published": "Mon, 15 Sep 2025 16:52:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969644Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -847,7 +847,7 @@
         "summary": "Chinese-speaking users are the target of a search engine optimization (SEO) poisoning campaign that uses fake software sites to distribute malware.\n\"The attackers manipulated search rankings with SEO plugins and registered lookalike domains that closely mimicked legitimate software sites,\" Fortinet FortiGuard Labs researcher Pei Han Liao said. \"By using convincing language and small character",
         "published": "Mon, 15 Sep 2025 11:17:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969693Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -858,7 +858,7 @@
         "summary": "The U.S. Federal Bureau of Investigation (FBI) has issued a flash alert to release indicators of compromise (IoCs) associated with two cybercriminal groups tracked as UNC6040 and UNC6395 for orchestrating a string of data theft and extortion attacks.\n\n\"Both groups have recently been observed targeting organizations' Salesforce platforms via different initial access mechanisms,\" the FBI said.",
         "published": "Sat, 13 Sep 2025 14:34:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969712Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -869,7 +869,7 @@
         "summary": "Cybersecurity researchers have disclosed details of a new campaign that leverages ConnectWise ScreenConnect, a legitimate Remote Monitoring and Management (RMM) software, to deliver a fleshless loader that drops a remote access trojan (RAT) called AsyncRAT to steal sensitive data from compromised hosts.\n\"The attacker used ScreenConnect to gain remote access, then executed a layered VBScript and",
         "published": "Thu, 11 Sep 2025 11:32:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.970001Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -880,7 +880,7 @@
         "summary": "In May 2025, the European Union levied financial sanctions on the owners of Stark Industries Solutions Ltd., a bulletproof hosting provider that materialized two weeks before Russia invaded Ukraine and quickly became a top source of Kremlin-linked cyberattacks and disinformation campaigns. But new data shows those sanctions have done little to stop Stark from simply rebranding and transferring their assets to other corporate entities controlled by its original hosting providers.",
         "published": "Thu, 11 Sep 2025 17:40:22 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753581Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -891,7 +891,7 @@
         "summary": "The recent mass-theft of authentication tokens from Salesloft, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now Google warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, including Slack, Google Workspace, Amazon S3, Microsoft Azure, and OpenAI.",
         "published": "Mon, 01 Sep 2025 21:55:04 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753731Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -902,7 +902,7 @@
         "summary": "A 22-year-old Oregon man has been arrested on suspicion of operating \"Rapper Bot,\" a massive botnet used to power a service for launching distributed denial-of-service (DDoS) attacks against targets -- including a March 2025 DDoS that knocked Twitter/X offline. The Justice Department asserts the suspect and an unidentified co-conspirator rented out the botnet to online extortionists, and tried to stay off the radar of law enforcement by ensuring that their botnet was never pointed at KrebsOnSecurity.",
         "published": "Tue, 19 Aug 2025 20:51:06 +0000",
         "source_name": "Krebs on Security",
-        "timestamp_added": "2025-09-21T16:24:06.753874Z",
+        "timestamp_added": "2025-09-21T16:32:22.822339Z",
         "color": "#0dcaf0",
         "type": "news",
         "category": null
@@ -913,7 +913,7 @@
         "summary": "Frameworks may seem daunting to implement — especially for government IT teams that may not have an abundance of resources and expertise. But beginning implementation is better than never starting.",
         "published": "Fri, 19 Sep 2025 14:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130744Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -924,7 +924,7 @@
         "summary": "The newly emerged worm has spread across hundreds of open source software packages, stealing credentials and infecting other components without much direct attacker input.",
         "published": "Tue, 16 Sep 2025 20:02:30 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131229Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -935,7 +935,7 @@
         "summary": "The FBI's IC3 recently warned of two threat actors, UNC6040 and UNC6395, targeting Salesforce customers, separately and in tandem.",
         "published": "Mon, 15 Sep 2025 20:02:17 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131382Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -946,7 +946,7 @@
         "summary": "With multiple persistence mechanisms, the modular malware can brute-force passwords, drop payloads, and communicate over different protocols.",
         "published": "Wed, 10 Sep 2025 11:59:20 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131818Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -957,7 +957,7 @@
         "summary": "Firms cooperating with cybercrime syndicates in Burma and Cambodia face sanctions by the US government and enforcement actions by China, but the scams continue to grow.",
         "published": "Wed, 10 Sep 2025 02:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131840Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -968,7 +968,7 @@
         "summary": "Threat actors phished Qix's NPM account, then used their access to publish poisoned versions of 18 popular open source packages accounting for more than 2 billion weekly downloads.",
         "published": "Tue, 09 Sep 2025 18:16:15 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131911Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -979,7 +979,7 @@
         "summary": "The FBI warned today that cybercriminals are impersonating its Internet Crime Complaint Center (IC3) website in what the law enforcement agency described as \"possible malicious activity.\" [...]",
         "published": "Fri, 19 Sep 2025 12:43:29 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222274Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -990,7 +990,7 @@
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published an analysis of the malware deployed in attacks exploiting vulnerabilities affecting Ivanti Endpoint Manager Mobile (EPMM). [...]",
         "published": "Fri, 19 Sep 2025 11:46:44 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222314Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -1003,7 +1003,7 @@
         "summary": "AI’s growing role in enterprise environments has heightened the urgency for Chief Information Security Officers (CISOs) to drive effective AI governance. When it comes to any emerging technology, governance is hard – but effective governance is even harder. The first instinct for most organizations is to respond with rigid policies. Write a policy document, circulate a set of restrictions, and",
         "published": "Thu, 18 Sep 2025 17:00:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969044Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -1014,7 +1014,7 @@
         "summary": "Quantum computing and AI working together will bring incredible opportunities. Together, the technologies will help us extend innovation further and faster than ever before. But, imagine the flip side, waking up to news that hackers have used a quantum computer to crack your company's encryption overnight, exposing your most sensitive data, rendering much of it untrustworthy.\nAnd with your",
         "published": "Wed, 17 Sep 2025 18:26:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969189Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -1025,7 +1025,7 @@
         "summary": "Attacks that target users in their web browsers have seen an unprecedented rise in recent years. In this article, we’ll explore what a “browser-based attack” is, and why they’re proving to be so effective.&nbsp;\nWhat is a browser-based attack?\nFirst, it’s important to establish what a browser-based attack is.\nIn most scenarios, attackers don’t think of themselves as attacking your web browser.",
         "published": "Mon, 15 Sep 2025 17:25:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969598Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -1036,7 +1036,7 @@
         "summary": "Cybersecurity researchers have disclosed two new campaigns that are serving fake browser extensions using malicious ads and fake websites to steal sensitive data.\nThe malvertising campaign, per Bitdefender, is designed to push fake \"Meta Verified\" browser extensions named SocialMetrics Pro that claim to unlock the blue check badge for Facebook and Instagram profiles. At least 37 malicious ads",
         "published": "Thu, 11 Sep 2025 14:35:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969961Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -1047,7 +1047,7 @@
         "summary": "Following a pandemic-era respite, financial fraud linked to synthetic identities is rising again, with firms potentially facing $3.3 billion in damages from new accounts.",
         "published": "Fri, 19 Sep 2025 14:18:09 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130700Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1058,7 +1058,7 @@
         "summary": "The former CIA deputy director for digital innovation discusses resilience, cultural shifts, and cyber fundamentals in the AI era.",
         "published": "Thu, 18 Sep 2025 22:31:43 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130834Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1069,7 +1069,7 @@
         "summary": "The proposed restructuring plan would address many concerns related to the social media platform, but risks remain for security teams.",
         "published": "Thu, 18 Sep 2025 20:28:19 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130871Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1080,7 +1080,7 @@
         "summary": "Digital forensics offers a challenging but rewarding career path for cybersecurity professionals willing to invest in specialized knowledge and continuous learning.",
         "published": "Wed, 17 Sep 2025 22:14:02 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130933Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1091,7 +1091,7 @@
         "summary": "The cloud now acts as the connecting infrastructure for many companies' assets — from IoT devices to workstations to applications and workloads — exposing the edge to threats.",
         "published": "Wed, 17 Sep 2025 21:44:02 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.130970Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1102,7 +1102,7 @@
         "summary": "Though the groups have shared their decision to go dark, threat researchers say there are signs that it's business as usual.",
         "published": "Wed, 17 Sep 2025 19:12:08 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131040Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1113,7 +1113,7 @@
         "summary": "The AI era means attackers are smarter, faster, and hitting you where you least expect it — your sign-up funnel.",
         "published": "Wed, 17 Sep 2025 14:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131074Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1124,7 +1124,7 @@
         "summary": "The North Korea-linked group Kimsuky used ChatGPT to create deepfakes of military ID documents in an attempt to compromise South Korean targets.",
         "published": "Wed, 17 Sep 2025 00:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131134Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1135,7 +1135,7 @@
         "summary": "The company acquired HyperComply to help enterprises automate vendor security reviews and gain a real-time picture of the security of their entire supply chain.",
         "published": "Mon, 15 Sep 2025 22:09:33 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131315Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1146,7 +1146,7 @@
         "summary": "CISA's Secure by Design planted a flag. Now, it's on those who care about safeguarding systems to pick up the torch and take action to secure systems throughout the enterprise.",
         "published": "Mon, 15 Sep 2025 14:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131399Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1157,7 +1157,7 @@
         "summary": "Researchers convince Anthropic's AI-assisted coding tool to engage in dangerous behavior by lying to it, paving the way for a supply chain attack.",
         "published": "Mon, 15 Sep 2025 09:11:58 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131427Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1168,7 +1168,7 @@
         "summary": "The US Transportation Department reportedly warns that solar-powered devices used in highway infrastructure have undocumented radios. Is the risk real?",
         "published": "Fri, 12 Sep 2025 13:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131541Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1179,7 +1179,7 @@
         "summary": "F5 plans to use CalypsoAI's platform to provide real-time threat defense against attacks and help enterprises safeguard themselves as they adopt the latest AI technologies.",
         "published": "Thu, 11 Sep 2025 19:25:21 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131634Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1190,7 +1190,7 @@
         "summary": "Researchers discovered that measures designed to make AI more transparent to users and regulators can also make it easier for bad actors to abuse.",
         "published": "Thu, 11 Sep 2025 12:00:00 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131704Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1201,7 +1201,7 @@
         "summary": "The threats may not be malicious, but they are more than many security teams can handle.",
         "published": "Wed, 10 Sep 2025 18:17:16 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131753Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1212,7 +1212,7 @@
         "summary": "The Royal Canadian Mounted Police has shut down the TradeOgre cryptocurrency exchange and seized more than $40 million believed to originate from criminal activities. [...]",
         "published": "Sat, 20 Sep 2025 13:11:40 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222124Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -1223,7 +1223,7 @@
         "summary": "Microsoft has begun rolling out the beta version of its AI-powered Gaming Copilot to Windows 11 systems for users aged 18 or older, excluding those in mainland China. [...]",
         "published": "Fri, 19 Sep 2025 14:46:22 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222224Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -1234,7 +1234,7 @@
         "summary": "Valve has announced that its Steam digital distribution service will drop support for 32-bit versions of Windows starting January 2026. [...]",
         "published": "Fri, 19 Sep 2025 08:14:41 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222410Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -1245,7 +1245,7 @@
         "summary": ".OpenAI released $4 GPT Go in August, but it was limited to just India. Now, OpenAI is expanding GPT Go to include new regions. [...]",
         "published": "Thu, 18 Sep 2025 20:30:00 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222485Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -1256,7 +1256,7 @@
         "summary": "OpenAI is finally rolling out a toggle that allows you to decide how hard the GPT-5-thinking model can think. This feature is rolling out to Plus and Pro subscribers. [...]",
         "published": "Thu, 18 Sep 2025 18:20:56 -0400",
         "source_name": "BleepingComputer",
-        "timestamp_added": "2025-09-21T16:24:09.222562Z",
+        "timestamp_added": "2025-09-21T16:32:26.293881Z",
         "color": "#0d6efd",
         "type": "news",
         "category": null
@@ -1269,7 +1269,7 @@
         "summary": "Cybersecurity researchers have tied a fresh round of cyber attacks targeting financial services to the notorious cybercrime group known as Scattered Spider, casting doubt on their claims of going \"dark.\"\nThreat intelligence firm ReliaQuest said it has observed indications that the threat actor has shifted their focus to the financial sector. This is supported by an increase in lookalike domains",
         "published": "Wed, 17 Sep 2025 14:19:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969279Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -1282,7 +1282,7 @@
         "summary": "Microsoft's Digital Crimes Unit said it teamed up with Cloudflare to coordinate the seizure of 338 domains used by RaccoonO365, a financially motivated threat group that was behind a phishing-as-a-service (Phaas) toolkit used to steal more than 5,000 Microsoft 365 credentials from 94 countries since July 2024.\n\"Using a court order granted by the Southern District of New York, the DCU seized 338",
         "published": "Wed, 17 Sep 2025 10:01:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969348Z",
+        "timestamp_added": "2025-09-21T16:32:20.017928Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -1293,7 +1293,7 @@
         "summary": "Phishing-as-a-service (PhaaS) kits have become an increasingly popular way for lower-skill individuals who want to get into cybercrime.",
         "published": "Wed, 17 Sep 2025 19:44:56 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131013Z",
+        "timestamp_added": "2025-09-21T16:32:25.102359Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1304,7 +1304,7 @@
         "summary": "Chinese state-backed threat actors are suspected of posing as Michigan congressman John Moolenaar in a series of spear-phishing attacks.",
         "published": "Wed, 10 Sep 2025 16:44:30 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131778Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1315,7 +1315,7 @@
         "summary": "While the jury is still out, it's clear that use has skyrocketed and security needs to align.",
         "published": "Tue, 09 Sep 2025 19:23:53 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131872Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1328,7 +1328,7 @@
         "summary": "CISOs know their field. They understand the threat landscape. They understand how to build a strong and cost-effective security stack. They understand how to staff out their organization. They understand the intricacies of compliance. They understand what it takes to reduce risk. Yet one question comes up again and again in our conversations with these security leaders: how do I make the impact",
         "published": "Thu, 11 Sep 2025 16:03:00 +0530",
         "source_name": "The Hacker News",
-        "timestamp_added": "2025-09-21T16:24:04.969922Z",
+        "timestamp_added": "2025-09-21T16:32:20.018933Z",
         "color": "#ffc107",
         "type": "news",
         "category": null
@@ -1341,7 +1341,7 @@
         "summary": "&quot;Chaotic Deputy&quot; is a set of four vulnerabilities in the chaos engineering platform that many organizations use to test the resilience of their Kubernetes environments.",
         "published": "Tue, 16 Sep 2025 20:35:04 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131194Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1354,7 +1354,7 @@
         "summary": "The data leak underscores the larger issue of proprietary or sensitive data being shared with GenAI by users who should know better.",
         "published": "Thu, 11 Sep 2025 21:01:13 GMT",
         "source_name": "Dark Reading",
-        "timestamp_added": "2025-09-21T16:24:08.131571Z",
+        "timestamp_added": "2025-09-21T16:32:25.103102Z",
         "color": "#d63384",
         "type": "news",
         "category": null
@@ -1367,7 +1367,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://pplware.sapo.pt/wp-content/uploads/2024/02/amazon_base_tts.jpg\" width=\"1200\" /></p>A Amazon retirou cerca de 500 mil produtos de consumo da sua plataforma nos últimos dias devido a sérios riscos de segurança, incluindo incêndios, asfixia e ferimentos, especialmente em bebés e crianças. Conheça os&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 16:00:07 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.399886Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1378,7 +1378,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"576\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/09/ESET-Regresso-às-aulas-1-1.jpg\" width=\"1024\" /></p>Aproveitando o período de regresso às aulas, o Pplware conversou um pouco com Nuno Mendes, CEO da ESET Portugal, para saber algumas recomendações para enfrentar os principais desafios que a cibersegurança coloca aos alunos&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 15:00:56 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.399973Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1389,7 +1389,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/09/supertramp_1.jpg\" width=\"1200\" /></p>Porque recordar é viver, o Pplware traz aos seus leitores a sua habitual rubrica semanal de música. Apresentamos as músicas que marcaram a nossa juventude ou o nosso passado recente e que ainda ouvimos&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 14:00:32 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400003Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1400,7 +1400,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/06/microsoft_pt_1.jpg\" width=\"1200\" /></p>No universo das aplicações e plataformas que moldam o nosso quotidiano, é fácil assumir que cada uma pertence a um mundo diferente. Contudo, muitas das ferramentas mais influentes estão, discretamente, sob a alçada de&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 13:00:47 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400025Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1411,7 +1411,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/09/netflix_wb_1.jpg\" width=\"1200\" /></p>A Warner Bros. foi adquirida pela Discovery num gigantesco negócio de 43 mil milhões de dólares em 2022. Especulou-se que a venda poderia ser temporária. Embora tenham tenha negado categoricamente as alegações, três anos&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 12:00:14 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400047Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1422,7 +1422,7 @@
         "summary": "<p><img alt=\"Cancro da próstata\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"676\" src=\"https://pplware.sapo.pt/wp-content/uploads/2024/04/cancro_prostata00.jpg\" width=\"1200\" /></p>Um exame de ressonância magnética mais rápido e barato foi tão preciso no diagnóstico do cancro da próstata quanto o exame atual de 30 a 40 minutos. Milhões de homens poderão beneficiar desta alternativa,&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 11:00:30 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400068Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1433,7 +1433,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"576\" src=\"https://pplware.sapo.pt/wp-content/uploads/2019/03/aeroporto-smartphone.jpg\" width=\"1024\" /></p>Tal como referimos recentemente, um ataque informático ao software MUSE, da empresa norte-americana Collins Aerospace, tem gerado graves problemas nos cartões de embarque, despacho de bagagens e acesso aos portões. Aeroportos ainda registam problemas&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 10:00:49 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400088Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1444,7 +1444,7 @@
         "summary": "<p><img alt=\"Hyundai Ioniq 5\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/07/Novo-Hyundai-IONIQ-5-2.jpg\" width=\"1200\" /></p>Um carro elétrico é essencialmente uma grande bateria sobre rodas, pelo que os carregadores bidirecionais podem permitir que um veículo alimente uma casa, devolva energia à rede elétrica ou até forneça energia de reserva&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 09:00:23 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400113Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1455,7 +1455,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"720\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/09/iphone_17_pro_max_1.jpg\" width=\"1280\" /></p>Com o iPhone 17 a chegar aos novos utilizadores, é hora de começarem as comparações com o smartphone da Apple. Algo que todos os anos acaba de se repetir, com um primeiro teste. Neste,&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 08:00:11 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400137Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1466,7 +1466,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/02/model_y_juniper_1.jpg\" width=\"1200\" /></p>Os detalhes sobre o tão aguardado e económico Model Y da Tesla começam a surgir, graças às descobertas numa recente atualização de software. O conhecido hacker @greentheonly partilhou novas informações sobre o X, revelando&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 07:00:30 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400157Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1477,7 +1477,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"675\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/02/hands-on_samsung_galaxy_s25_27.jpg\" width=\"1200\" /></p>A Samsung começou a lançar a One UI 8 baseada no Android 16 há alguns dias para o Galaxy S25, mas o primeiro firmware da One UI 8.5 específico para o Galaxy S25 Ultra&#46;&#46;&#46;",
         "published": "Sun, 21 Sep 2025 06:00:14 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400177Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1488,7 +1488,7 @@
         "summary": "<p><img alt=\"\" class=\"attachment-post-thumbnail size-post-thumbnail wp-post-image\" height=\"810\" src=\"https://pplware.sapo.pt/wp-content/uploads/2025/09/aquilo_ar_condicionado00.webp\" width=\"1440\" /></p>Inspirado nas torres de vento egípcias, este dispositivo usa água e um ventilador para reduzir até 4 °C a temperatura. Vejam a criatividade tecnológica deste ar condicionado. 6 pontos que se destacam no artigo:&#46;&#46;&#46;",
         "published": "Sat, 20 Sep 2025 21:30:00 +0000",
         "source_name": "Pplware",
-        "timestamp_added": "2025-09-21T16:24:03.400195Z",
+        "timestamp_added": "2025-09-21T16:32:17.087360Z",
         "color": "#6f42c1",
         "type": "news",
         "category": "Brazil"
@@ -1504,7 +1504,7 @@
         "summary": "America’s Government Accountability Office says the Pentagon employs more than 70,000 cyber personnel, hackers steal SonicWall firewall configs, DeepSeek returns insecure code for groups China doesn’t like, and two Scattered Spider members arrested in the UK.",
         "published": "Fri, 19 Sep 2025 10:50:01 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.639811Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Srsly Risky Biz: US investment in spyware skyrockets",
@@ -1513,7 +1513,7 @@
         "summary": "Tom Uren and Amberleigh Jack talk about why it is good news that US investment in spyware vendors has skyrocketed.\n\nThey also discuss the in-principle agreement for TikTok to remain in the US. It’s a win-win: a win for China and a win for TikTok, but not so much a win for US national security.\n\nThis episode is also available on YouTube.",
         "published": "Thu, 18 Sep 2025 13:03:16 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.639896Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Risky Business #807 -- Shai-Hulud npm worm wreaks old-school havoc",
@@ -1522,7 +1522,7 @@
         "summary": "On this week’s show Patrick Gray and Adam Boileau discuss the week’s cybersecurity news, including:\n\n\n  Shai-Hulud worm propagates via npm and steals credentials\n  Jaguar Land Rover attack may put smaller suppliers out of business\n  Leaked data emerges from the vendor behind the Great Firewall of China\n  Vastaamo hacker walks free while appeal is underway\n  Why is a senator so mad about Kerberos?\n\n\nThis week’s episode is sponsored by Knocknoc. Chief exec Adam Pointon joins to talk through the surprising number of customers that are using Knocknoc’s identity-to-firewall glue to protect internal services and networks.\n\nThis week’s episode is also available on Youtube.",
         "published": "Wed, 17 Sep 2025 13:01:40 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.639937Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Risky Bulletin: Android switches to risk-based security updates",
@@ -1531,7 +1531,7 @@
         "summary": "Android will only issue monthly updates for high-risk vulnerabilities, a self-replicating attack hits the npm registry, BreachForums’ admin resentenced on appeal, and hackers breach Gucci’s parent company.",
         "published": "Wed, 17 Sep 2025 09:06:29 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.639972Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Between Two Nerds: The limits of cyber power",
@@ -1540,7 +1540,7 @@
         "summary": "In this edition of Between Two Nerds Tom Uren and The Grugq talk about the limits of a state’s cyber power.\n\nThis episode is also available on YouTube",
         "published": "Tue, 16 Sep 2025 06:47:11 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.640004Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Risky Bulletin: DC sues crypto ATM operator for profiting from scams",
@@ -1549,7 +1549,7 @@
         "summary": "The US sues a crypto ATM operator for profiting from scams, SMS blasters make their way into Switzerland, the US and Portugal tussle over the extradition of the RaidForums admin, and Samsung patches a zero-day in its phones.",
         "published": "Mon, 15 Sep 2025 12:09:31 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.640036Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Risky Biz Soap Box: runZero shakes up vulnerability management",
@@ -1558,7 +1558,7 @@
         "summary": "In this sponsored Soap Box edition of the Risky Business podcast, industry legend HD Moore joins the show to talk about runZero’s major push into vulnerability management.\n\nWith its new Nuclei integration, runZero is now able to get a very accurate picture of what’s vulnerable in your environment, without spraying highly privileged credentials at attackers on your network.\n\nIt can also integrate with your EDR platform, and other data sources, to give you powerful visibility into the true state of things on your network and in your cloud.\n\nThis episode is also available on Youtube.",
         "published": "Mon, 15 Sep 2025 10:01:43 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.640066Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Sponsored: The challenge of managing browser extensions",
@@ -1567,7 +1567,7 @@
         "summary": "In this sponsored interview, Casey Ellis chats to David Cottingham and Daniel Schell from Airlock Digital. They discuss the challenge of browser extension management for enterprises, why it’s a priority and how Airlock can help.",
         "published": "Mon, 15 Sep 2025 07:09:50 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.640099Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Risky Bulletin: Apple notifies French users of spyware attacks",
@@ -1576,7 +1576,7 @@
         "summary": "Apple notifies French users of spyware attacks, China will increase fines for data breaches Google pays $1.6mil for cloud bugs at a hackathon event, and no more hacked free laundry for Dutch students",
         "published": "Fri, 12 Sep 2025 13:40:36 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.640129Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       },
       {
         "title": "Srsly Risky Biz: Exploiting authorisation sprawl is the new black",
@@ -1585,7 +1585,7 @@
         "summary": "Tom Uren and Amberleigh Jack talk about the Salesloft Drift incident. It is a great example of the sprawling impact that the breach of a single service provider can have. We expect these single-compromise-large-blast-radius attacks will become the new norm.\n\nThey also talk about Apple’s Memory Integrity Enforcement, which promises to be a big step forward for memory safety on Apple devices.\n\nThis episode is also available on Youtube.",
         "published": "Thu, 11 Sep 2025 13:27:41 +1000",
         "show_name": "Risky Business",
-        "timestamp_added": "2025-09-21T16:24:30.640157Z"
+        "timestamp_added": "2025-09-21T16:32:30.922935Z"
       }
     ]
   }

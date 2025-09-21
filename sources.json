@@ -60,14 +60,6 @@
     {
       "name": "Risky Business",
       "url": "https://risky.biz/rss.xml"
-    },
-    {
-      "name": "Darknet Diaries",
-      "url": "https://feeds.darknetdiaries.com/darknetdiaries.xml"
-    },
-    {
-      "name": "Malicious Life",
-      "url": "https://malicious.life/feed/podcast/"
     }
   ]
 }
