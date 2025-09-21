@@ -26,6 +26,30 @@
       "color": "#d63384"
     },
     {
+      "name": "The Register - Cyber Crime",
+      "url": "https://www.theregister.com/security/cyber_crime/headlines.atom",
+      "language": "en",
+      "color": "#ff0000"
+    },
+    {
+      "name": "The Register - Patchs",
+      "url": "https://www.theregister.com/security/patches/headlines.atom",
+      "language": "en",
+      "color": "#ff0000"
+    },
+    {
+      "name": "The Register - Research",
+      "url": "https://www.theregister.com/security/research/headlines.atom",
+      "language": "en",
+      "color": "#ff0000"
+    },
+    {
+      "name": "The Register - CSO",
+      "url": "https://www.theregister.com/security/cso/headlines.atom",
+      "language": "en",
+      "color": "#ff0000"
+    },
+    {
       "name": "BleepingComputer",
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
