@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+               script-src 'self';
+               style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; 
+               font-src 'self' https://fonts.gstatic.com;
+               connect-src 'self' https://cdn.jsdelivr.net;">
+  <meta name="referrer-policy" content="no-referrer-when-downgrade">
+  <meta name="X-Content-Type-Options" content="nosniff">
+  <meta name="X-Frame-Options" content="DENY">
+  <title>About - InfoSec Digest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css"/>
+  <style>
+    :root {
+      --pico-font-family: 'Roboto Mono', monospace;
+      --pico-font-size: 90%;
+      --pico-h1-font-size: 2.5rem;
+      --pico-line-height: 1.6;
+      --section-border-color: rgba(0, 255, 196, 0.1);
+      --cyber-neon: #00ffc4;
+      --cyber-neon-glow: 0 0 10px rgba(0, 255, 196, 0.3);
+      --cyber-dark: #0a0e17;
+      --cyber-dark-alt: #141824;
+      --cyber-accent: #ff003c;
+      --cyber-text: #e0e0e0;
+      --gradient-dark: linear-gradient(45deg, var(--cyber-dark), var(--cyber-dark-alt));
+    }
+
+    body {
+      background: var(--gradient-dark);
+      color: var(--cyber-text);
+    }
+
+    /* --- Header --- */
+    .hero { 
+      text-align: center; 
+      padding: 2rem 0; 
+      background: linear-gradient(180deg, rgba(0,255,196,0.05) 0%, rgba(0,255,196,0) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--cyber-neon);
+      box-shadow: var(--cyber-neon-glow);
+    }
+
+    .hero h1 { 
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+      color: var(--cyber-text);
+      text-shadow: 0 0 20px rgba(0, 255, 196, 0.2);
+    }
+
+    .hero h1 a {
+      color: var(--cyber-text);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .hero h1 a:hover {
+      color: var(--cyber-neon);
+    }
+
+    .hero h1 .symbol { 
+      color: var(--cyber-neon);
+      font-weight: 400;
+      text-shadow: var(--cyber-neon-glow);
+    }
+
+    /* --- Article Content --- */
+    .about-content { 
+      max-width: 800px; 
+      margin: 0 auto;
+      background: rgba(10, 14, 23, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 2rem;
+      border-radius: 8px;
+      border: 1px solid rgba(0, 255, 196, 0.1);
+    }
+
+    .about-content h2 { 
+      color: var(--cyber-neon);
+      text-shadow: var(--cyber-neon-glow);
+      margin-top: 2rem;
+    }
+
+    .about-content h3 {
+      color: var(--cyber-accent);
+      margin-bottom: 1.5rem;
+    }
+
+    .about-content p { 
+      color: var(--cyber-text);
+      line-height: 1.8;
+    }
+
+    .about-content ul {
+      border-left: 2px solid var(--cyber-neon);
+      padding-left: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .about-content li {
+      margin: 0.5rem 0;
+      color: var(--cyber-text);
+    }
+
+    .home-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: rgba(0, 255, 196, 0.1);
+      color: var(--cyber-neon);
+      border: 1px solid rgba(0, 255, 196, 0.2);
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 2rem 0;
+      transition: all 0.3s ease;
+    }
+
+    .home-button:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--cyber-neon-glow);
+      background: rgba(0, 255, 196, 0.2);
+    }
+
+    /* --- Footer --- */
+    footer { 
+      text-align: center;
+      padding: 2.5rem 0;
+      margin-top: 2rem;
+      border-top: 1px solid var(--section-border-color);
+      font-size: 0.85rem;
+      color: var(--cyber-text);
+      position: relative;
+    }
+
+    footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--cyber-neon);
+      opacity: 0.2;
+      box-shadow: var(--cyber-neon-glow);
+    }
+
+    footer nav { 
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    footer nav a { 
+      color: var(--cyber-neon);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(0, 255, 196, 0.2);
+    }
+
+    footer nav a:hover {
+      background: rgba(0, 255, 196, 0.1);
+      transform: translateY(-2px);
+      box-shadow: var(--cyber-neon-glow);
+    }
+
+    footer p a {
+      color: var(--cyber-neon);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    footer p a:hover,
+    footer p a:visited,
+    footer p a:active {
+      color: var(--cyber-neon);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header class="container hero">
+    <h1><a href="index.html"><span class="symbol">>_</span> InfoSec Digest <span class="symbol">[ ]</span></a></h1>
+    <a href="index.html" class="home-button"><i class="ri-home-line"></i> Return to Live Feed</a>
+  </header>
+
+  <main class="container">
+    <article class="about-content">
+      <hgroup>
+        <h2>About Me</h2>
+        <h3>Where Physics Meets Cybersecurity</h3>
+      </hgroup>
+      
+      <p>
+        Hello, I'm <strong>Marcos</strong> (also known as <strong>zer0spin</strong>), a physicist by training who's found his way back to his original passion: information security and programming. My academic journey through physics taught me valuable analytical and problem-solving skills, but my heart has always been in the digital realm, particularly in the fascinating world of cybersecurity.
+      </p>
+
+      <h2>My Journey</h2>
+      <p>
+        While physics provided me with a solid foundation in analytical thinking and complex problem-solving, I've always been drawn to the dynamic and ever-evolving field of information security. After completing my physics degree, I realized that my true calling lay in combining my analytical background with my passion for cybersecurity and software development.
+      </p>
+
+      <h2>Why InfoSec Digest?</h2>
+      <p>
+        This project was inspired by TechURLs, a site I've long admired for its clean, efficient approach to tech news aggregation. I wanted to create something similar for the cybersecurity community, while also challenging myself to implement modern security practices and improve my development skills.
+      </p>
+      <p>
+        InfoSec Digest serves multiple purposes:
+      </p>
+      <ul>
+        <li>It provides a centralized, clean interface for accessing high-quality security news and podcasts</li>
+        <li>It demonstrates secure development practices through its static-site and GitOps architecture</li>
+        <li>It serves as a practical playground for implementing security best practices and modern development techniques</li>
+        <li>It helps me stay updated with the latest security news while improving my coding skills</li>
+      </ul>
+
+      <h2>Technical Implementation</h2>
+      <p>
+        Building InfoSec Digest has been an exercise in secure software development. I've focused on:
+      </p>
+      <ul>
+        <li>Implementing a security-first architecture with minimal attack surface</li>
+        <li>Using Python for efficient data processing and content aggregation</li>
+        <li>Leveraging GitHub Actions for automated, secure content updates</li>
+        <li>Creating a responsive, modern frontend with careful attention to security practices</li>
+      </ul>
+      <p>
+        This project is more than just a news aggregator—it's a testament to my journey of reconnecting with cybersecurity and my commitment to continuous learning in this field.
+      </p>
+    </article>
+  </main>
+
+  <footer class="container">
+    <nav>
+      <a href="index.html"><i class="ri-home-line"></i> Home</a>
+      <a href="https://github.com/zer0spin/infosec-digest" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i> GitHub</a>
+    </nav>
+    <p>&copy; 2025 InfoSec Digest. Created by <a href="https://github.com/zer0spin" target="_blank" rel="noopener noreferrer">zer0spin</a>. All rights reserved.</p>
+  </footer>
+</body>
+</html>

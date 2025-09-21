@@ -1,0 +1,26 @@
+{
+  "Patches & Updates": [
+    "patch", "update", "security update", "fix", "flaw", "bulletin", "advisory", "mitigation"
+  ],
+  "Vulnerabilities & Exploits": [
+    "vulnerability", "exploit", "cve-", "zero-day", "0-day", "rce", "poc", "proof of concept", "overflow"
+  ],
+  "Malware & Ransomware": [
+    "malware", "ransomware", "trojan", "virus", "spyware", "adware", "botnet", "keylogger", "rat"
+  ],
+  "Phishing & Social Engineering": [
+    "phishing", "spear phishing", "bec", "business email compromise", "social engineering", "vishing", "smishing"
+  ],
+  "Threat Intelligence & Hunting": [
+    "threat intelligence", "threat hunting", "apt", "advanced persistent threat", "iocs", "indicators of compromise", "ttps"
+  ],
+  "Data Breaches": [
+    "data breach", "leak", "hacked", "exposed data", "stolen data", "compromised"
+  ],
+  "Cloud Security": [
+    "aws", "azure", "gcp", "cloud security", "s3 bucket", "docker", "kubernetes"
+  ],
+  "Industry & Compliance": [
+    "cissp", "comptia", "gdpr", "lgpd", "compliance", "regulation", "nist"
+  ]
+}

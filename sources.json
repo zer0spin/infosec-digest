@@ -1,0 +1,73 @@
+{
+  "news_sources": [
+    {
+      "name": "Pplware",
+      "url": "https://pplware.sapo.pt/feed/",
+      "language": "pt-br",
+      "category": "Brazil",
+      "color": "#6f42c1"
+    },
+    {
+      "name": "The Hacker News",
+      "url": "https://thehackernews.com/feeds/posts/default",
+      "language": "en",
+      "color": "#ffc107"
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "language": "en",
+      "color": "#0dcaf0"
+    },
+    {
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "language": "en",
+      "color": "#d63384"
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "language": "en",
+      "color": "#0d6efd"
+    },
+    {
+      "name": "Segurança Informática",
+      "url": "https://seguranca-informatica.pt/feed/",
+      "language": "pt-br",
+      "color": "#198754"
+    }
+  ],
+    
+  "reddit_sources": [
+    {
+      "name": "r/netsec",
+      "url": "https://www.reddit.com/r/netsec.rss",
+      "color": "#FF5700"
+    },
+    {
+      "name": "r/cybersecurity",
+      "url": "https://www.reddit.com/r/cybersecurity.rss",
+      "color": "#FF5700"
+    },
+    {
+      "name": "r/SecurityCareerAdvice",
+      "url": "https://www.reddit.com/r/SecurityCareerAdvice.rss",
+      "color": "#FF5700"
+    }
+  ],
+  "podcast_sources": [
+    {
+      "name": "Risky Business",
+      "url": "https://risky.biz/rss.xml"
+    },
+    {
+      "name": "Darknet Diaries",
+      "url": "https://feeds.darknetdiaries.com/darknetdiaries.xml"
+    },
+    {
+      "name": "Malicious Life",
+      "url": "https://malicious.life/feed/podcast/"
+    }
+  ]
+}

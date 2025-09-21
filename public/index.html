@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+               script-src 'self';
+               style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com; 
+               font-src 'self' https://fonts.gstatic.com;
+               connect-src 'self' https://cdn.jsdelivr.net;">
+  <meta name="referrer-policy" content="no-referrer-when-downgrade">
+  <meta name="X-Content-Type-Options" content="nosniff">
+  <meta name="X-Frame-Options" content="DENY">
+  <title>InfoSec Digest</title>
+  <meta name="description" content="A curated feed of cybersecurity news and podcasts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.min.css"/>
+  <style>
+    :root {
+      --pico-font-family: 'Roboto Mono', monospace;
+      --pico-font-size: 90%;
+      --pico-h1-font-size: 2.5rem;
+      --pico-line-height: 1.4;
+      --section-border-color: rgba(0, 255, 196, 0.1);
+      --cyber-neon: #00ffc4;
+      --cyber-neon-glow: 0 0 10px rgba(0, 255, 196, 0.3);
+      --cyber-dark: #0a0e17;
+      --cyber-dark-alt: #141824;
+      --cyber-accent: #ff003c;
+      --cyber-text: #e0e0e0;
+      --gradient-dark: linear-gradient(45deg, var(--cyber-dark), var(--cyber-dark-alt));
+    }
+    
+    body {
+      background: var(--gradient-dark);
+      color: var(--cyber-text);
+    }
+
+    .hero { 
+      text-align: center; 
+      padding: 2rem 0; 
+      background: linear-gradient(180deg, rgba(0,255,196,0.05) 0%, rgba(0,255,196,0) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--cyber-neon);
+      box-shadow: var(--cyber-neon-glow);
+    }
+
+    .country-flag { font-size: 1.2rem; margin: 0 0.3rem; }
+
+    #sidebar { 
+      font-size: 0.9rem;
+      background: rgba(10, 14, 23, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid rgba(0, 255, 196, 0.1);
+    }
+
+    #sidebar a { 
+      padding: 0.5rem 1rem;
+      transition: all 0.3s ease;
+      border-radius: 4px;
+      color: var(--cyber-text);
+      text-decoration: none;
+      display: block;
+    }
+
+    #sidebar a:hover {
+      background: rgba(0, 255, 196, 0.1);
+      transform: translateX(5px);
+    }
+
+    #sidebar h2 { 
+      font-size: 0.8rem;
+      margin-top: 1.5rem;
+      color: var(--cyber-neon);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .hero h1 { 
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+      color: var(--cyber-text);
+      text-shadow: 0 0 20px rgba(0, 255, 196, 0.2);
+    }
+
+    .hero h1 .symbol { 
+      color: var(--cyber-neon);
+      font-weight: 400;
+      text-shadow: var(--cyber-neon-glow);
+    }
+
+    #content { 
+      max-height: 70vh;
+      overflow-y: auto;
+      padding: 1.5rem;
+      background: rgba(10, 14, 23, 0.6);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      border: 1px solid rgba(0, 255, 196, 0.1);
+      scrollbar-width: thin;
+      scrollbar-color: var(--cyber-neon) var(--cyber-dark);
+    }
+
+    #content::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    #content::-webkit-scrollbar-track {
+      background: var(--cyber-dark);
+    }
+
+    #content::-webkit-scrollbar-thumb {
+      background: var(--cyber-neon);
+      border-radius: 4px;
+    }
+
+    .content-item { 
+      padding: 1rem;
+      border-bottom: 1px solid var(--section-border-color);
+      transition: all 0.3s ease;
+      background: rgba(20, 24, 36, 0.3);
+      margin-bottom: 0.5rem;
+      border-radius: 4px;
+    }
+
+    .content-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 255, 196, 0.1);
+    }
+
+    .item-header { 
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .time-ago { 
+      background: rgba(0, 255, 196, 0.1);
+      color: var(--cyber-neon);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: bold;
+      flex-shrink: 0;
+      border: 1px solid rgba(0, 255, 196, 0.2);
+    }
+
+    .source-tag { 
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: bold;
+      flex-shrink: 0;
+      margin-left: 0.75rem;
+    }
+
+    /* Clear tags with black text*/
+    .source-tag[style*="ffc107"],  /* The Hacker News */
+    .source-tag[style*="0dcaf0"],  /* Krebs */
+    .source-tag[style*="198754"],  /* iMasters */
+    .source-tag[style*="fd7e14"] { /* Observador */
+      color: #000000 !important;
+      text-shadow: none;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /* Dark tags with white text */
+    .source-tag[style*="ff4500"], /* Reddit */
+    .source-tag[style*="d63384"], /* Dark Reading */
+    .source-tag[style*="0d6efd"], /* BleepingComputer */
+    .source-tag[style*="6f42c1"] { /* Pplware */
+      color: #ffffff !important;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .item-title { 
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--cyber-text);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .item-title:hover {
+      color: var(--cyber-neon);
+    }
+
+    .tooltip { 
+      position: fixed;
+      display: none;
+      background: rgba(10, 14, 23, 0.95);
+      border: 1px solid var(--cyber-neon);
+      border-radius: 8px;
+      padding: 1rem;
+      max-width: 450px;
+      font-size: 0.9rem;
+      z-index: 1000;
+      pointer-events: none;
+      box-shadow: 0 5px 15px rgba(0, 255, 196, 0.1);
+      backdrop-filter: blur(10px);
+    }
+
+    .tooltip p { margin-bottom: 1rem; }
+    
+    .tooltip a { 
+      font-size: 0.9rem;
+      font-weight: bold;
+      color: var(--cyber-neon);
+    }
+
+    footer { 
+      text-align: center;
+      padding: 2.5rem 0;
+      margin-top: 2rem;
+      border-top: 1px solid var(--section-border-color);
+      font-size: 0.85rem;
+      color: var(--cyber-text);
+      position: relative;
+    }
+
+    footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--cyber-neon);
+      opacity: 0.2;
+      box-shadow: var(--cyber-neon-glow);
+    }
+
+    footer nav { 
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    footer nav a { 
+      color: var(--cyber-neon);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(0, 255, 196, 0.2);
+    }
+
+    footer nav a:hover {
+      background: rgba(0, 255, 196, 0.1);
+      transform: translateY(-2px);
+      box-shadow: var(--cyber-neon-glow);
+    }
+
+    footer p a {
+      color: var(--cyber-neon);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    footer p a:hover,
+    footer p a:visited,
+    footer p a:active {
+      color: var(--cyber-neon);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="tooltip" class="tooltip"></div>
+
+  <header class="container hero">
+    <h1><span class="symbol">>_</span> InfoSec Digest <span class="symbol">[ ]</span></h1>
+    <p class="subtitle"><i class="ri-radar-line"></i> Monitoring the latest cybersecurity updates</p>
+  </header>
+
+  <main class="container">
+    <div class="grid">
+      <aside id="sidebar">
+        <div class="sidebar-header">
+          <i class="ri-menu-line"></i>
+          <span>Categories</span>
+        </div>
+        <p>Loading...</p>
+      </aside>
+      <section id="content" role="document">
+        <div class="content-header">
+          <i class="ri-pulse-line"></i>
+          <span>Live Feed</span>
+        </div>
+        <p>Select a category to begin.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="container">
+    <nav>
+      <a href="about.html"><i class="ri-information-line"></i> About</a>
+      <a href="https://github.com/zer0spin/infosec-digest" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i> GitHub</a>
+    </nav>
+    <p>&copy; 2025 InfoSec Digest. Created by <a href="https://github.com/zer0spin" target="_blank" rel="noopener noreferrer">zer0spin</a>. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
