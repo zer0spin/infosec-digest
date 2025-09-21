@@ -4,21 +4,19 @@ import logging
 import ssl
 import time
 import os
+import requests
 from urllib.parse import urlparse
 from datetime import datetime, timezone
 from collections import defaultdict
 
-# Import app settings and dependencies
 from app.settings import NEWS_SOURCES, REDDIT_SOURCES, PODCAST_SOURCES, KEYWORDS, BASE_DIR
 from app.categorizer import Categorizer
 
-# Security: Set restricted file permissions (owner read/write only)
 try:
     os.umask(0o077)
 except AttributeError:
-    pass  # umask not available on all systems
+    pass
 
-# Logging configuration
 log_file_path = BASE_DIR / "fetcher.log"
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[logging.FileHandler(log_file_path, encoding='utf-8'), logging.StreamHandler()])
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
@@ -27,7 +25,6 @@ def get_current_utc_iso_string():
     return datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z')
 
 def is_valid_url(url):
-    """# Security: Validate if string is a valid HTTP/HTTPS URL"""
     try:
         result = urlparse(url)
         return all([result.scheme in ['http', 'https'], result.netloc])
@@ -35,70 +32,59 @@ def is_valid_url(url):
         return False
 
 def sanitize_entry(entry_data):
-    """Security: Validate and sanitize feed item data to prevent injection and DoS.
-    
-    This function performs several security checks:
-    1. Validates data types of required fields
-    2. Ensures URLs are properly formatted and use allowed schemes
-    3. Truncates content to prevent DoS attacks via large content
-    4. Sanitizes string fields to prevent XSS and injection attacks
-    
-    Args:
-        entry_data (dict): Raw feed entry data to be sanitized
-        
-    Returns:
-        dict: Sanitized entry data, or None if validation fails
-    """
     title = entry_data.get("title", "No Title")
     link = entry_data.get("link", "")
     summary = entry_data.get("summary", "")
 
-    # Type and format validation
     if not isinstance(title, str) or not is_valid_url(link):
-        return None  # Discard items with invalid title or link
+        return None
     
-    # Truncate content to prevent DoS with massive content
     entry_data["title"] = title[:300]
     entry_data["summary"] = summary[:2000]
     
     return entry_data
 
-def fetch_feed(source_name, url):
+def fetch_feed_with_retry(source_name, url, max_retries=3, timeout=20):
+    headers = {
+        'User-Agent': USER_AGENT,
+        'Accept': 'application/rss+xml, application/xml, application/json'
+    }
     
-    logging.info(f"Processing source: {source_name} ({url})")
-    feed = feedparser.parse(url, agent=USER_AGENT)
-    if feed.bozo:
-        if isinstance(feed.bozo_exception, ssl.SSLError):
-             raise Exception(f"SSL Certificate Error. Bozo reason: {feed.bozo_exception}")
-        raise Exception(f"Feed malformed. Bozo reason: {feed.bozo_exception}")
+    for attempt in range(max_retries):
+        try:
+            logging.info(f"Attempt {attempt + 1}/{max_retries} for source: {source_name}")
+            response = requests.get(url, headers=headers, timeout=timeout)
+            response.raise_for_status()
+
+            feed = feedparser.parse(response.text)
+            
+            if feed.bozo:
+                raise Exception(f"Feed malformed after successful fetch. Bozo reason: {feed.bozo_exception}")
+
+            break 
+        except requests.exceptions.RequestException as e:
+            if attempt < max_retries - 1:
+                wait_time = 2 ** (attempt + 1)
+                logging.warning(f"Network error on attempt {attempt + 1} for '{source_name}': {e}. Waiting {wait_time}s...")
+                time.sleep(wait_time)
+            else:
+                raise Exception(f"Failed to fetch '{source_name}' after {max_retries} network attempts: {e}")
+        except Exception as e:
+            raise Exception(f"A non-network error occurred for '{source_name}': {e}")
+    
     logging.info(f"  -> Found {len(feed.entries)} entries for {source_name}.")
     if not feed.entries:
         logging.warning(f"  -> No entries found for source: {source_name}")
     return feed
 
 def fetch_news(categorizer: Categorizer):
-    """Fetches and categorizes news from all configured sources.
-    
-    This function processes each news source, fetches their RSS feeds,
-    and categorizes the news items based on their content. Items from
-    Brazilian sources are grouped separately in the 'Brazil' category.
-    
-    Args:
-        categorizer: A Categorizer instance used to classify news items
-        
-    Returns:
-        dict: A dictionary where keys are categories and values are lists of news items
-    """
     categorized_news = defaultdict(list)
     brazil_news = []
     
-    # Combine news and reddit sources
     all_sources = NEWS_SOURCES + REDDIT_SOURCES
     for source in all_sources:
         try:
-            feed = fetch_feed(source['name'], source['url'])
-            
-            time.sleep(1)
+            feed = fetch_feed_with_retry(source['name'], source['url'])
             
             is_brazilian_source = source.get("language") == "pt-br"
             
@@ -126,7 +112,7 @@ def fetch_news(categorizer: Categorizer):
                     category = categorizer.categorize(news_item["title"], news_item["summary"])
                     categorized_news[category].append(news_item)
         except Exception as e:
-            logging.error(f"FAILED to process entire source '{source['name']}'. Reason: {e}")
+            logging.error(f"SKIPPING source '{source['name']}' due to persistent failure. Reason: {e}")
             continue
     
     if brazil_news:
@@ -134,16 +120,6 @@ def fetch_news(categorizer: Categorizer):
     return dict(categorized_news)
 
 def fetch_podcasts():
-    """Fetches podcast episodes from configured podcast sources.
-    
-    This function processes each podcast feed, extracts episode information
-    including audio URLs, and organizes them by show name. It includes
-    validation and sanitization of feed content.
-    
-    Returns:
-        dict: A dictionary where keys are podcast show names and values
-              are lists of episode details
-    """
     show_episodes = defaultdict(list)
     if not PODCAST_SOURCES:
         logging.warning("Podcast list is empty in sources.json. Skipping podcast fetch.")
@@ -151,8 +127,8 @@ def fetch_podcasts():
 
     for podcast in PODCAST_SOURCES:
         try:
-            feed = fetch_feed(podcast['name'], podcast['url'])
-            time.sleep(1)
+            feed = fetch_feed_with_retry(podcast['name'], podcast['url'])
+            
             for entry in feed.entries:
                 audio_url = ""
                 if hasattr(entry, 'enclosures'):
@@ -178,7 +154,7 @@ def fetch_podcasts():
 
                 show_episodes[podcast['name']].append(episode_item)
         except Exception as e:
-            logging.error(f"FAILED to process entire podcast '{podcast['name']}'. Reason: {e}")
+            logging.error(f"SKIPPING podcast '{podcast['name']}' due to persistent failure. Reason: {e}")
             continue
 
     return dict(show_episodes)
