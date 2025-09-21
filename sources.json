@@ -8,6 +8,13 @@
       "color": "#6f42c1"
     },
     {
+      "name": "SegInfo",
+      "url": "https://seginfo.com.br/feed/",
+      "language": "pt-br",
+      "category": "Brazil",
+      "color": "#3d748b"
+    },
+    {
       "name": "The Hacker News",
       "url": "https://thehackernews.com/feeds/posts/default",
       "language": "en",
