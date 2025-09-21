@@ -79,6 +79,18 @@
     {
       "name": "Risky Business",
       "url": "https://risky.biz/rss.xml"
+    },
+    {
+      "name": "CyberWire Daily",
+      "url": "https://feeds.megaphone.fm/cyberwire-daily-podcast"
+    },
+    {
+      "name": "Darknet Diaries",
+      "url": "https://podcast.darknetdiaries.com/"
+    },
+    {
+      "name": "SANS Stormcast",
+      "url": "https://isc.sans.edu/dailypodcast.xml"
     }
   ]
 }
