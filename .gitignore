@@ -17,3 +17,6 @@ venv.bak/
 
 # Logs
 *.log
+
+# Data
+public/data.json
