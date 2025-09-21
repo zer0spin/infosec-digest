@@ -15,8 +15,32 @@
       "color": "#3d748b"
     },
     {
+      "name": "Microsoft Security Center",
+      "url": "https://msrc.microsoft.com/blog/feed",
+      "language": "en",
+      "color": "#81bc06"
+    },
+    {
+      "name": "Google Security Blog",
+      "url": "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
+      "language": "en",
+      "color": "#4285f4"
+    },
+    {
+      "name": "NCSC",
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "language": "en",
+      "color": "#1d4086"
+    },
+    {
       "name": "The Hacker News",
       "url": "https://thehackernews.com/feeds/posts/default",
+      "language": "en",
+      "color": "#ffc107"
+    },
+    {
+      "name": "Unit 42",
+      "url": "http://feeds.feedburner.com/Unit42",
       "language": "en",
       "color": "#ffc107"
     },
