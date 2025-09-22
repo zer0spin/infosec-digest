@@ -15,6 +15,13 @@
       "color": "#3d748b"
     },
     {
+      "name": "CNCS - Notícias",
+      "url": "https://www.cncs.gov.pt/docs/noticias/feed-rss/index.xml",
+      "language": "pt-br",
+      "category": "Brazil",
+      "color": "#2e8ba2"
+    },
+    {
       "name": "Microsoft Security Center",
       "url": "https://msrc.microsoft.com/blog/feed",
       "language": "en",
