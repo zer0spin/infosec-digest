@@ -129,6 +129,11 @@
     {
       "name": "SANS Stormcast",
       "url": "https://isc.sans.edu/dailypodcast.xml"
+    },
+    {
+      "name": "Segurança Legal",
+      "url": "https://www.segurancalegal.com/feed/podcast/"
     }
   ]
 }
+
